@@ -18,8 +18,9 @@ import re
 # Constants
 #
 
-# Version
-Version = "0.0.1"
+# Version (Mine, and PEP defactos)
+VERSION=(0,0,1)
+Version = __version__ = ".".join([ str(x) for x in VERSION ])
 
 # Text Submit Port
 TextPort = 2003
